@@ -20,6 +20,8 @@ print (mark[1:3])
 mark.append(99)
 print (mark)
 
+mark.pop()         # to delete a item from the last index
+print(mark)
                  # To add any number in specific index : insert()
 mark.insert(2,99)
 print (mark)
@@ -33,17 +35,17 @@ print (len(mark))
 #                        for loop in list :
 #------------------------------------------------------------------------------
 for score in mark :
-    print (score)
+    print ("Score :" ,score)
 
 #_______________________________________________________________________________
 #                 While loop in list
 #-------------------------------------------------------------------------------
 
-mark = [95 ,98, 97]
+mark = [95 ,98, 97,100,56,80]
 
 i=0
 while i< len(mark):
-    print (mark[i])
+    print ("mark",i,mark[i] )
     i= i+1
 
 #------------------------------------------------------------------------------
@@ -54,7 +56,7 @@ students = ['ram','shyam','kishan','radha','radhika']
 
 for student in students:
     if student == 'radha':
-        break;              #fpr break keyword, loop will stop right there
+        break;              #for break keyword, loop will stop right there
     print (student)
 
 for student in students :
