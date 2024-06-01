@@ -1,11 +1,12 @@
-#we can use "" or '' to declare it as string
+
+# we can use "" or '' to declare it as string
 print ("Hello world")
 print (' Hello world')
 
 # variable declare - String,integer,boolean
-name = "Nowshin"
-age = 22
-is_coder= True
+name = "Nowshin"  #string type
+age = 22          #int
+is_coder= True    #boolean
 print (name,age , is_coder)
 
 #input() is used for taking input from user
