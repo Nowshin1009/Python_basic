@@ -10,12 +10,25 @@ print(names)
 names[1:3] = ["Rohim", "Korim"]  #index 3 is not included
 print(names)
 
-names[1:4] = ["Raha", "Kiara"]  #it will replace the index value of 1,2 and 3 with two new value
-print(names)
-
-#Change the second value by replacing it with two new values:
+#If you insert more items than you replace, the new items will be inserted where you specified, and the remaining items will move accordingly:
 #------------------------------------------------------------
 names = ["Toma", "Mina", "cherry", "Nowshin" , "Iffat", "Fatima" , "Taki", "Mim"]
 print(names)
-names[1:2]=["Tufa", "Anonna"]
+names[1:2]=["Tufa", "Anonna"] #---> 
 print(names)
+
+#If you insert less items than you replace, the new items will be inserted where you specified, and the remaining items will move accordingly:
+names[1:4] = ["Raha", "Kiara"]  #it will replace the index value of 1,2 and 3 with two new value
+print(names)
+
+
+#Insert Items : 
+#---------------------
+#To insert a new list item, without replacing any of the existing values, we can use the insert() method.
+
+newName = ["Ena", "Mina", "Tina"]
+newName.insert(1,"Lipa")
+print(newName)
+
+
+
