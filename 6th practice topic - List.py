@@ -25,8 +25,8 @@ print(mark)
                  # To add any number in specific index : insert()
 mark.insert(2,99)
 print (mark)
-                 # To check any number exsist or not :  in
-print (99 in mark)
+                 # To check any number exist or not :  in
+print (99 in mark )
 
                 # To check the length of the list : len()
 print (len(mark))
@@ -63,3 +63,13 @@ for student in students :
     if student == 'kishan':
         continue;           #for continue keyword, loop will print all the elements except that one
     print(student)
+
+
+fruits = ["Apple", "Banana" , "Orange" , "Guava" , "Watermelon" , "Mango" , "Lichi" ]
+
+for i in range(len(fruits)):
+    print (i , fruits[i])
+
+for i in range(3 ,6):
+    print (i , fruits[i])
+
