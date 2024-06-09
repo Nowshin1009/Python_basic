@@ -76,3 +76,7 @@ print(num_to_words.values())
 #get() function :
 print(num_to_words.get(2))
 
+#we can also use key call to get a element like this : print(num_to_words[3])
+#but benefits to use get is it doesn't give error if the key is not in the dictionary , it returns ""none""
+
+
