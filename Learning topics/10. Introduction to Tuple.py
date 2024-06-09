@@ -1,7 +1,7 @@
 #________________________________________________________________________________
 #                            Tuple
 #--------------------------------------------------------------------------------
-# A tuple is a collection which is ordered and unchangeable.
+# A tuple is a collection which is ordered and unchangeable.(immutablw)
 # Lists are created using fisrt brackets --> () :
 
 marks= (95,95,98,97,97,97)

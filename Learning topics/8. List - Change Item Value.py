@@ -31,12 +31,13 @@ newName.insert(1,"Lipa")
 print(newName)
 
 
-# To remove a element from any index:
+# To remove a element from list:
 #---------------------------------------
 list=[1,2,3,4,5,5,6]
-
-list.remove(3,4)
+list.remove(3)
 print(list)
+
+
 
 
 
