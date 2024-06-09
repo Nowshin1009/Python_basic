@@ -31,13 +31,11 @@ newName.insert(1,"Lipa")
 print(newName)
 
 
-# To remove a element from list:
+# To remove a element from :
 #---------------------------------------
 list=[1,2,3,4,5,5,6]
 list.remove(3)
 print(list)
-
-
 
 
 
