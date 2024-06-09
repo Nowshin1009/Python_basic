@@ -53,5 +53,5 @@ print(li)
 
 # Or we can also use li.reverse()
 
-print(dir(list))
+print(dir(list))  #To know all the functions of list
 

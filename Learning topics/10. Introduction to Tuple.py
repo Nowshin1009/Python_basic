@@ -28,3 +28,5 @@ print (marks.count(97))
 # to check index of any elements. (It will print the index where it fount the element first time)
 
 print (marks.index(97))
+
+#To check all the functionalities of tuple:
