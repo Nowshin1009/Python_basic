@@ -7,7 +7,7 @@ print(li1)
 print(li2)
 print(li3)
 
-
+#--------------------------------------------------
 
 range1= range(1,11)
 for x in range1:
