@@ -53,5 +53,14 @@ print(li)
 
 # Or we can also use li.reverse()
 
+
+name =['aa','bb','cc','dd']
+name2=['ee','ff','gg','hh']
+name3=['ii','jj','kk','ll']
+name.append(name2)   #append add the items as 1 list in 1 index
+print(name)
+name2.extend(name3)
+print(name2)
+
 print(dir(list))  #To know all the functions of list
 
