@@ -64,4 +64,4 @@ print(name2)
 
 print(dir(list))  #To know all the functions of list
 
-print(help(list.copy))
+print(help(list.copy))    # use help() to know how aany function works

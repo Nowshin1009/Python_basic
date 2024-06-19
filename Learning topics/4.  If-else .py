@@ -43,3 +43,21 @@ elif operator == "%":
     print (first % second)
 else :
     print ('Invalid operation!!!')
+
+
+# If with logical operators :
+
+s=""
+print(not s)
+ 
+if not s:
+  print("string is empty")
+else:
+  print("String is not empty")
+
+#-----------------------------------------
+def sleep_in(weekday, vacation):
+  if not weekday or vacation:
+    return True
+  else:
+    return False
