@@ -1,4 +1,4 @@
-'''
+
 # we can use "" or '' to declare it as string
 print ("Hello world")
 print (' Hello world')
@@ -23,8 +23,8 @@ print (type(number))
 # string can be concatenate with only string and same for other data types also.
 old_age=input()
 new_age=int(old_age) + 2 #here we have use int() for type casting
-print (new_age)
-'''
+print (new_age) 
+
 #Complex Number --> a+bi
 a= 6+7j
 print(a)
@@ -33,5 +33,5 @@ print(a.imag)
 print(type(a))
 
 b=5+5j
-print(a+b)
+Print(a+b)
 
