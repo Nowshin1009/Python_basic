@@ -1,7 +1,10 @@
-input_numbers = input("Enter numbers : ")
-number_list = input_numbers.split(',')
+#Sum all the odd numbers from 0 to 100 and print it to the screen.
 
-for num in number_list :
-    num = int(num)
-    if num % 2 != 0:
-        print(num)
+i=1
+sum=0
+while i<=100:
+    if i%2 != 0:
+        sum=sum+i
+    i+=1
+    
+print(sum)
