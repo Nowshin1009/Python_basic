@@ -10,10 +10,9 @@
 # Constraints
 # 0 ≤ |S| ≤ 109
 
-
-
-height=float(input("Enter Height : "))
-weight=float(input("ENter weight : "))
+inputs = input().split()
+height = float(inputs[0])
+weight = float(inputs[1])
 
 BMI=weight/height**2
 print(f"BMI: {BMI:.2f}")
@@ -25,5 +24,3 @@ elif 25.0<= BMI <30.0 :
     print("Overweight")
 else :
     print("Obese")
-
-
