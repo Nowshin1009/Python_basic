@@ -31,3 +31,19 @@ if vowel == True:
 else:
     print("The string does not contain any vowel.")
 
+#------------------------------------------------------------------------------------------
+#Another way :
+# Get input string from the user
+your_str = input("Enter a String: ")
+
+# Define a set of vowels (both lowercase and uppercase)
+vowels = set("aeiouAEIOU")
+
+# Check if any character in the input string is a vowel
+vowel_found = any(char in vowels for char in your_str)
+
+# Output the result
+if vowel_found:
+    print("The string contains a vowel.")
+else:
+    print("The string does not contain any vowel.")
