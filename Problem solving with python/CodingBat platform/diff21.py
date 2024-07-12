@@ -11,7 +11,7 @@ def diff21(n):
     else:
         return (n - 21) * 2
     
-diff21(19) 
-diff21(10) 
-diff21(21) 
-diff21(33)
+print(diff21(19)) 
+print(diff21(10)) 
+print(diff21(21)) 
+print(diff21(33))
