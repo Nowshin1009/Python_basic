@@ -62,6 +62,12 @@ print(name)
 name2.extend(name3)   #extend add the intems as individual item in each index
 print(name2)
 
+
+#slice:
+# s[::-1]--> s[start:stop:step]
+str_list=["hello","python","django"]
+s[::-1] for s in str_list:
+    print(str_list)
 print(dir(list))  #To know all the functions of list
 
 print(help(list.copy))    # use help() to know how aany function works
