@@ -33,7 +33,7 @@ print(a.imag)
 print(type(a))
 
 b=5+5j
-Print(a+b)
+print(a+b)
 
 #========Type None----------
 Nothing= None

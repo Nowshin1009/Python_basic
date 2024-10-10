@@ -23,3 +23,8 @@ print ("Ara" in name)
 print ("Tara" in name)
 print ("M" in name)
 
+# Mulitple line string 
+multiple_line = '''Son: "Dad, can you tell me what a solar eclipse is??"
+Dad: "No,sun."
+Son: "Okay dad!"'''
+print(multiple_line)
