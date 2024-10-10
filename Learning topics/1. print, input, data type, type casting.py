@@ -35,3 +35,6 @@ print(type(a))
 b=5+5j
 Print(a+b)
 
+#========Type None----------
+Nothing= None
+print(type(Nothing))
